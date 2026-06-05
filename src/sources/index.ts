@@ -103,7 +103,7 @@ export const SOURCES: SourceDefinition[] = [
     feed_url: "https://rss.arxiv.org/rss/cs.CR",
     format: "rss",
     tier: 2,
-    domain_coverage: ["llm-inference", "ai-supply-chain", "network-protocols", "side-channel"],
+    domain_coverage: ["llm-inference", "ai-supply-chain", "network-protocols"],
     update_cadence: "daily",
     notes: "Academic AI security and crypto papers. Filter by keyword relevance — high volume, mixed signal.",
   },
