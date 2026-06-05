@@ -1,0 +1,22 @@
+{
+  "name": "threat-intel",
+  "version": "0.1.0",
+  "description": "Threat intelligence aggregator — ingest, classify, and export AI-ready security research context",
+  "type": "module",
+  "scripts": {
+    "ingest": "bun src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "test:unit": "bun test tests/unit/",
+    "test:integration": "bun test tests/integration/",
+    "lint": "bunx eslint src/ tests/"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^5.5.0"
+  }
+}
