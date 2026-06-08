@@ -1,8 +1,8 @@
 ---
 project: threat-intel
 effort: E4
-phase: observe
-progress: 0/140
+phase: verify
+progress: 140/140
 mode: algorithm
 started: "2026-06-05T00:00:00Z"
 updated: "2026-06-05T00:00:00Z"
